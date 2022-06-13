@@ -8,12 +8,10 @@ namespace DungeonLibrary
 {
     public enum Race
     {
-        Human, 
-        Orc, 
-        Elf,
-        Halfling,
-        Gnome,
-        Dwarf,
-        Demon,
+        Commoner, 
+        DogOwner, 
+        StreetPreacher,
+        Barista,
+        FastFoodWorker,
     }
 }

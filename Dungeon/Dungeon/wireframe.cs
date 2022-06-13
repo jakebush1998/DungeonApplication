@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DungeonLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,15 @@ namespace Dungeon
         {
             //TODO Create A Player
 
-            Console.WriteLine("Dungeon of Death");
+            Console.Title = ("Dungeon of Death");
+            Console.WriteLine("Your journey beings...\n");
+
+            int score = 0;
+
+            Weapon sword = new Weapon(1,8, "Long Sword", 10, false, WeaponType.Sword);
+
+            Player player = new Player("Leeroy Jenkins", 70, 5, 40, 40, Race.Elf, sword);    
+
             bool exit = false;
 
             do
@@ -23,6 +32,8 @@ namespace Dungeon
 
                     do
                     {
+                        
+
                         Console.WriteLine("A. Attack\nB. Run Away\nC. Character Info\nD. Monster Info\nE. Exit");
                         //string playerChoice = Console.ReadLine().ToUpper();
                         string playerChoice = Console.ReadKey(true).Key.ToString().ToUpper();
@@ -139,6 +150,7 @@ namespace Dungeon
 
 //                        case "p":
 //                            Console.WriteLine("Player Info");
+                              
 //                            break;
 //                        case "m":
 //                            Console.WriteLine("Monster Info");
