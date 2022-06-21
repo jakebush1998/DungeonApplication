@@ -28,6 +28,8 @@ namespace DungeonLibrary
                     break;
                 case Race.Barista:
                     break;
+                case Race.WebDeveloper:
+                    break;
             }
         }
 
@@ -50,6 +52,9 @@ namespace DungeonLibrary
                     break;
                 case Race.Barista:
                     description = "Barista";
+                    break;
+                case Race.WebDeveloper:
+                    description = "Web Developer";
                     break;
             }
             return base.ToString() + $"\nWeapon: {EquippedWeapon.Name}\n" +

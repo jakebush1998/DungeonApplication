@@ -56,7 +56,7 @@ namespace DungeonLibrary
         //RETURN HERE ONCE CREATED MONSTERS
         public static Monster GetMonster()
         {
-
+            ZombieCop z = new("Zombie Cop", 25, 15, 12, 20, 17, 9, "It's red, blue and rotten green!", 17, 10);
         }
     }//end class
 }//end namespace

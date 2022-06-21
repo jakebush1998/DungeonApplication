@@ -8,12 +8,11 @@ namespace DungeonLibrary
 {
     public enum WeaponType
     {
-        Sword, 
-        Magical,
-        Ranged, 
-        Melee,
-        Spear,
-        Mace,
-        Axe, 
+        hotCoffee, 
+        serviceDog,
+        BirdScooter, 
+        MegaPhone,
+        TacoBellHotSaucePackets,
+        Laptop, 
     }
 }

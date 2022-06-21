@@ -13,5 +13,6 @@ namespace DungeonLibrary
         StreetPreacher,
         Barista,
         FastFoodWorker,
+        WebDeveloper,
     }
 }
